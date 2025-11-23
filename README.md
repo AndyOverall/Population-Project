@@ -119,14 +119,15 @@ PASSWORD=your_password
 
 ## Project Structure
 
+```
 project/
 │
-├── main.py                         # Main execution script
-├── requirements.txt                # Python dependencies
-├── settings.json5                  # Configuration file
+├── main.py                          # Main execution script
+├── requirements.txt                 # Python dependencies
+├── settings.json5                   # Configuration file
 ├── .env                            # Database credentials (create this)
 ├── .env.example                    # Template for .env
-├── README.md                       # This file
+├── README.md                        # This file
 │
 ├── src/
 │   ├── python/
@@ -134,7 +135,6 @@ project/
 │   │   ├── log.py                  # Logging functionality
 │   │   ├── hmd.py                  # HMD data download & processing
 │   │   ├── hfd.py                  # HFD data download & processing
-|   |   ├── hg.py                   # For the original intention; Hunter   |   |   |                             Gather DAta goes here. Any additinal |   |   |                             populations may be be put here 
 │   │   ├── income_status.py        # World Bank data processing
 │   │   ├── life_table.py           # Life table generation
 │   │   ├── country_table.py        # Country-level metrics
@@ -149,20 +149,26 @@ project/
 ├── ShinyPipeline.R                  # Interactive dashboard
 │
 ├── data/
-    ├── raw/                         # Downloaded data (auto-generated)
-    │   ├── HMD/
-    ├── HFD/
-    │   └── WBLG/
-    |   └── HG/                      # NOT auto downloaded (add any csv)
-   └── processed/                   # Processed output (auto-generated)
-        └── data[N]/                 # Numbered output folders
-           ├── life_table.csv
-            ├── country_table.csv
-            ├── income_status.csv
-            ├── hmd.csv
-            ├── hfd.csv
-            ├── hg.csv
-            └── log_file.log
+│   ├── raw/                         # Downloaded data (auto-generated)
+│   │   ├── HMD/
+│   │   ├── HFD/
+│   │   └── WBLG/
+│   └── processed/                   # Processed output (auto-generated)
+│       └── data[N]/                 # Numbered output folders
+│           ├── life_table.csv
+│           ├── country_table.csv
+│           ├── income_status.csv
+│           ├── hmd.csv
+│           ├── hfd.csv
+│           └── log_file.log
+│
+├── Ache__Hurtado__Hill.xlsx        # Hunter-gatherer data
+├── Hadza__Blurton_Jones_data.xlsx  # Hunter-gatherer data
+└── Levitis___Lackey_App_3_R_code.R # Reference PrR code
+```
+
+---
+
 
 ## Usage Instructions
 
