@@ -3,7 +3,7 @@
 
 This application has the original intention in analysing demographic data using the Human MOrtality Database (HMD) and Human Fertility Database (HFD) to explore population genetic metrics across industrialised periods. It additinally uses World Bank Income Statuses, and Modern Hunter Gather Data. 
 
-Although this is the orginal intent of the application; any CSV file can be added (provided it fills the [requirements](###Data-Format-Requirements)) to be analysed.
+Although this is the orginal intent of the application; any CSV file can be added (provided it fills the [requirements](###Data-Format-Requirements) to be analysed).
 
 The entry point of this program is the main.py, which orchestrates the data collection and formating, as well as acting as a wrapper to integrate R for further processing and analysis.
 
