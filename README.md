@@ -1,7 +1,7 @@
 # Population Genetics Project: A Demographic Transitions Analysis Tool
 ## Project Overview
 
-This application has the original intention in analysing demographic data using the Human MOrtality Database (HMD) and Human Fertility Database (HFD) to explore population genetic metrics across industrialised periods. It additinally uses World Bank Income Statuses, and Modern Hunter Gather Data. 
+This application has the original intention in analysing demographic data using the Human Mortality Database (HMD) and Human Fertility Database (HFD) to explore population genetic metrics across industrialised periods. It additinally uses World Bank Income Statuses, and Modern Hunter Gather Data. 
 
 Although this is the orginal intent of the application; any CSV file can be added (provided it fills the [requirements](###Data-Format-Requirements) to be analysed).
 
