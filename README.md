@@ -532,22 +532,7 @@ The `main.py` script orchestrates the following sequence:
 
 ---
 
-## Citation
 
-If using this code in your research, please cite:
-
-```bibtex
-@software{population_genetics_dashboard_2024,
-  author = {Joshua [Last Name]},
-  title = {Population Genetics: Demographic Transitions Analysis Dashboard},
-  year = {2024},
-  version = {2.0},
-  institution = {[University Name]},
-  supervisor = {Andy [Last Name]},
-}
-```
-
----
 
 ## Changelog
 
