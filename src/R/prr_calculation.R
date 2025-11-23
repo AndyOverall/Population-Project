@@ -164,7 +164,7 @@ prr_results <- life[, {
 }, by = .(ISO3, ISO3_suffix, Year)]
 
 calc_time <- difftime(Sys.time(), calc_start, units="secs")
-cat(sprintf("   ✓ Calculations took: %.2f seconds\n", calc_time))
+cat(sprintf("    Calculations took: %.2f seconds\n", calc_time))
 
 # === DIAGNOSTICS ===
 cat("\n4. Results summary...\n")
