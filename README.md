@@ -298,7 +298,6 @@ Age,lx,mx
 - `lx` must be normalized (start at 1.0, not 100,000)
 - Include boundary ages if available (12- for fertility start, 55+ for fertility end, 110+ for mortality end)
 - Missing values should be left blank or use `NA`
-- Use sentinel year value (e.g., 1950 or 9999) for year-agnostic data
 - Include `ISO3_suffix` column if distinguishing sub-populations
 
 ---
