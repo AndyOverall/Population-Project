@@ -249,7 +249,7 @@ Once launched, the application will:
 ## Hunter-Gather Data
 
 ### Purpose
-Hunter-gatherer populations serve as **reference baselines** representing pre-industrial demographic patterns. They are **year-agnostic** (not time-bound) and help contextualize modern demographic transitions.
+Hunter-gatherer populations serve as **reference baselines** representing pre-industrial demographic patterns. 
 
 ### Included Datasets
 
