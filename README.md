@@ -566,5 +566,6 @@ The `main.py` script orchestrates the following sequence:
 3. Upload webiste to shinyCloud
 4. Not tested for Mac currently; hypothetically should work
 5. Maybe make HG data year agonistic - as to not be time bound - currently set a 1980
-6. update sources and check if read me file is up to date - incl. strcuture 
+6. update sources and check if read me file is up to date - incl. strcuture
+7. Need to update reaserch focus ~ maybe add this in when you've amde the whole dissertation as you can describe all the questions you've asked 
 
