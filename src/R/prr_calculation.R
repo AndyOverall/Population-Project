@@ -83,7 +83,7 @@ prr_results <- life[, {
   prop_survive_to_B <- NA_real_
   prop_survive_to_M <- NA_real_
   
-  # === KEY FIX: Following Levitis Appendix 3 Lines 53-58 ===
+  # === KEY FIX: Following Levitis Appendix 3  ===
   # Use cumsum(mx) NOT cumsum(lx*mx) for B and M
   # "Calculate age B as the minimum age at which sum of mx from 0 to x 
   #  is more than 0.05 * sum of mx from 0 to infinity"
