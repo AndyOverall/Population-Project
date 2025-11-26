@@ -61,7 +61,7 @@ json5==0.12.1
 ```
 ---
 
-## Insilation
+## Instilation
 
 ### 1. Clone the repository or download zip package attatched 
 ```bash
