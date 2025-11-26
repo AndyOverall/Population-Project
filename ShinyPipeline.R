@@ -62,11 +62,11 @@ var_display_names <- c(
     "mx_norm_ratio" = "R0/TFR",
     "mx_skew" = "mx Skew",
     "mx_kurtosis" = "mx Kurtosis",
-    "B" = "Fertility Start (B)",                        # ← ADD
-    "M" = "Fertility End (M)",                          # ← ADD
-    "Z" = "Cohort Longevity (Z)",                       # ← ADD
-    "PrR" = "Post-fertile Ratio (PrR)",                 # ← ADD
-    "prop_survive_to_M" = "Survival to M"               # ← ADD
+    "B" = "Fertility Start (B)",                        
+    "M" = "Fertility End (M)",                          
+    "Z" = "Cohort Longevity (Z)",                       
+    "PrR" = "Post-fertile Ratio (PrR)",                 
+    "prop_survive_to_M" = "Survival to M"               
 )
 
 # Define UI
@@ -408,7 +408,7 @@ server <- function(input, output, session) {
       } else if (x_var_code %in% c("T", "N_ratio", "H_N", "mx_norm_ratio", "mx_skew", "mx_kurtosis")) {
         y_choices <- y_choices[names(y_choices) != "Age"]
       }
-      # Year has NO restrictions!
+      # Year has NO restrictions
     
       updateSelectInput(session, paste0("y_variable_", i), choices = y_choices)
     })
